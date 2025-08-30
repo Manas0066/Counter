@@ -1,16 +1,60 @@
-body{
+/* Set dark background */
+body {
     background-color: black;
     color: white;
-}
-
-p{
-    color: white;
-}
-
-.red{
-    color: red;
-}
-
-#counter {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Counter text */
+  #counter {
+    font-size: 1.2rem;
+    margin: 10px 0;
     text-decoration: underline;
   }
+  
+  /* Error message */
+  #error {
+    color: red;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  /* Buttons container */
+  div {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear button style (black background like in screenshot) */
+  #clear {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  #clear:hover {
+    background-color: #333;
+  }
+  
